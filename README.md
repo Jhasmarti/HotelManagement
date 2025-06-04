@@ -1,7 +1,7 @@
 # Hotel Management System
 
 A simple console-based Hotel Management System built in Python using MySQL for database management.  
-The system allows registering customers, booking rooms, ordering food, managing laundry bills, and generating the final bill summary.
+The system allows customers to register, book rooms, order food, manage laundry bills, and generate a final bill summary.
 
 ---
 
@@ -12,7 +12,7 @@ The system allows registering customers, booking rooms, ordering food, managing 
 - **Restaurant Ordering:** Select items from the menu, specify quantity, and calculate restaurant bills.
 - **Laundry Service:** Calculate laundry charges based on the number of clothes.
 - **Billing:** Generate and display a detailed bill summary including room rent, restaurant orders, and laundry charges.
-- **Database Integration:** All data stored and managed using MySQL.
+- **Database Integration:** All data is stored and managed using MySQL.
 
 ---
 
@@ -27,18 +27,13 @@ The system allows registering customers, booking rooms, ordering food, managing 
 
 ## Installation
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/hotel-management-system.git
-    cd hotel-management-system
-    ```
 
-2. **Install required Python package:**
+1. **Install required Python package:**
     ```bash
     pip install mysql-connector-python
     ```
 
-3. **Set up MySQL database:**
+2. **Set up MySQL database:**
 
    - Create a database named `hotelManagement`.
    - Create tables (`customers`, `rooms`, `orders`, `laundry`) with appropriate columns.  
